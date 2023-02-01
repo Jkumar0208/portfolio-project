@@ -2,7 +2,99 @@
   text-align: center;
 }
 
-.App-logo {
+/* Header Section CSS */
+
+.nav-color {
+  background-color: white;
+}
+
+.nav-img-margin {
+  margin-left: 50px;
+}
+
+.nav-img {
+  margin-right: 15px;
+  width: 60px;
+  height: 60px;
+  background-color: #ffc107;
+  border-radius: 50%;
+}
+
+.navbar-icons {
+  margin-right: 0px;
+}
+
+.img-name {}
+
+/* Body Section CSS */
+
+body {
+  background-color: #F5F5F5;
+  padding-top: 60px;
+}
+
+.h1-margin {
+  margin-top: 25px;
+}
+
+.hr-line {
+  border-width: 6px;
+  border-radius: 25px;
+  border-color: #ffc107;
+  height: 0px;
+  width: 3%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.center-text {
+  display: flex;
+  justify-content: center;
+
+}
+
+.project-img {
+  border-radius: 10px;
+  width: 500px;
+  height: 350px;
+  border: 3px solid #ffc107;
+}
+
+.project-discription {
+  margin: auto;
+  padding-left: 50px;
+}
+
+.project-buttons {
+  margin-top: 45px;
+}
+
+.button-margin {
+  margin-right: 20px;
+}
+
+/* Footer Section CSS */
+
+.footer-hr {
+  border-width: 2px;
+  border-radius: 25px;
+  border-color: gray;
+  width: 25%;
+  margin: auto;
+}
+
+.footer-linkedin {
+  font-size: 30px;
+  color: white;
+}
+
+
+
+
+
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +127,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
