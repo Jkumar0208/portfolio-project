@@ -1,11 +1,9 @@
 import './App.css';
-//import jugesh from "./images/jugesh-image.png";
-import jugesh from "./images/jugesh-img-transparency.png";
+import jugesh from "./images/jugesh-img.png";
 import todo from "./images/todo-img.jpg";
 import ipAddress from "./images/ip-address-img.jpg";
 import weather from "./images/weather-app-img.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//import { faGift } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -16,11 +14,11 @@ function App() {
 
   return (
     <div>
-
+      {/* NAVBAR */}
       <header>
         <div className="container">
-          <nav className="navbar fixed-top navbar-light nav-color">
-            <div className="navbar-brand py-4 nav-img-margin" href="#">
+          <nav className="navbar fixed-top navbar-light nav-bar">
+            <div className="navbar-brand py-4" href="#">
               <table>
                 <tr>
                   <td>
@@ -44,12 +42,12 @@ function App() {
                   icon={faGithub}
                   style={{ color: "#000000" }}
                 /></a>
-
             </span>
           </nav>
         </div>
       </header>
 
+      {/* PROJECTS */}
       <body>
         <div className="container">
           <div className="App">
@@ -57,57 +55,64 @@ function App() {
             <hr className='hr-line'></hr>
           </div>
 
+          {/* TO-DO APP */}
           <div className="row justify-content-md-center mt-5">
-            <div className="col col-6 center-text">
-              <img src={todo} class="d-inline-block align-top project-img" alt="" />
-            </div>
-            <div className="col col-6 project-discription">
-              <div>
-                <h3>To-Do App</h3>
+            <div className="col col-xl-6 col-sm-12 center-text">
+              <div className="card" style={{ width: "31rem", height: "20rem", border: "3px solid #ffc107" }}>
+                <img className="card-img-top card1-img" src={todo} alt="todo" />
               </div>
-              <div className='project-buttons'>
-                <button type="button" class="btn btn-warning btn-lg button-margin">Live View</button>
-                <button type="button" class="btn btn-warning btn-lg">Code</button>
+            </div>
+            <div className="col col-xl-6 col-sm-12 center-text">
+              <div class="card text-center border-0" style={{ width: "31rem", backgroundColor: "#F5F5F5" }}>
+                <div class="card-body">
+                  <h3 className='mb-4'>To-Do App</h3>
+                  <button type="button" class="btn btn-warning btn-lg button-margin btn-space custom">Live View</button>
+                  <button type="button" class="btn btn-warning btn-lg custom">Code</button>
+                </div>
               </div>
             </div>
           </div>
 
+          {/* WHAT'S MY IP PROJECT */}
           <div className="row justify-content-md-center mt-5">
-            <div className="col col-6 center-text">
-              <img src={ipAddress} class="d-inline-block align-top project-img" alt="" />
-            </div>
-            <div className="col col-6 project-discription">
-              <div>
-                <h3>What's My IP</h3>
+            <div className="col col-xl-6 col-sm-12 center-text">
+              <div className="card" style={{ width: "31rem", height: "20rem", border: "3px solid #ffc107" }}>
+                <img className="card-img-top card2-img" src={ipAddress} alt="ipAddress" />
               </div>
-              <div className='project-buttons'>
-                <button type="button" class="btn btn-warning btn-lg button-margin">Live View</button>
-                <button type="button" class="btn btn-warning btn-lg">Code</button>
+            </div>
+            <div className="col col-xl-6 col-sm-12 center-text">
+              <div class="card text-center border-0" style={{ width: "31rem", backgroundColor: "#F5F5F5" }}>
+                <div class="card-body">
+                  <h3 className='mb-4'>What's My IP</h3>
+                  <button type="button" class="btn btn-warning btn-lg button-margin btn-space custom">Live View</button>
+                  <button type="button" class="btn btn-warning btn-lg custom">Code</button>
+                </div>
               </div>
             </div>
           </div>
 
+          {/* WEATHER APP */}
           <div className="row justify-content-md-center mt-5">
-            <div className="col col-6 center-text">
-              <img src={weather} class="d-inline-block align-top project-img" alt="" />
-            </div>
-            <div className="col col-6 project-discription">
-              <div>
-                <h3>Weather App</h3>
+            <div className="col col-xl-6 col-sm-12 center-text">
+              <div className="card" style={{ width: "31rem", height: "20rem", border: "3px solid #ffc107" }}>
+                <img className="card-img-top card3-img" src={weather} alt="weather" />
               </div>
-              <div className='project-buttons'>
-                <button type="button" class="btn btn-warning btn-lg button-margin">Live View</button>
-                <button type="button" class="btn btn-warning btn-lg">Code</button>
+            </div>
+            <div className="col col-xl-6 col-sm-12 center-text">
+              <div class="card text-center border-0" style={{ width: "31rem", backgroundColor: "#F5F5F5" }}>
+                <div class="card-body">
+                  <h3 className='mb-4'>Weather App</h3>
+                  <button type="button" class="btn btn-warning btn-lg button-margin btn-space custom">Live View</button>
+                  <button type="button" class="btn btn-warning btn-lg custom">Code</button>
+                </div>
               </div>
             </div>
           </div>
 
         </div>
-
-
-
       </body>
 
+      {/* FOOTER SECTION */}
       <footer className="bg-dark text-center text-white mt-5">
         <div className="container p-4 pb-0">
           <section className="mb-4">
@@ -122,9 +127,7 @@ function App() {
                 icon={faGithub}
                 style={{ color: "#FFFFFF" }}
               /></a>
-
           </section>
-
         </div>
 
         <hr className='footer-hr'></hr>
@@ -135,9 +138,7 @@ function App() {
         </div>
 
       </footer>
-
     </div>
-
   );
 }
 
