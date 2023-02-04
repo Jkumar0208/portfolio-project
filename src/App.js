@@ -37,7 +37,7 @@ function App() {
                   style={{ color: "#000000" }}
                 /></a>
 
-              <a className="btn btn-floating m-1 footer-linkedin" href="#!" role="button"
+              <a className="btn btn-floating m-1 footer-linkedin" href="https://github.com/Jkumar0208" target="_blank" rel="noopener noreferrer" role="button"
               ><FontAwesomeIcon
                   icon={faGithub}
                   style={{ color: "#000000" }}
@@ -65,9 +65,13 @@ function App() {
             <div className="col col-xl-6 col-sm-12 center-text">
               <div class="card text-center border-0" style={{ width: "31rem", backgroundColor: "#F5F5F5" }}>
                 <div class="card-body">
-                  <h3 className='mb-4'>To-Do App</h3>
-                  <button type="button" class="btn btn-warning btn-lg button-margin btn-space custom">Live View</button>
-                  <button type="button" class="btn btn-warning btn-lg custom">Code</button>
+                  <h3 className='mb-4 project-name'>To-Do App</h3>
+                  <a href="https://jk-todo-app.netlify.app" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn btn-warning btn-lg button-margin btn-space custom">Live View</button>
+                  </a>
+                  <a href="https://github.com/Jkumar0208/to-do-app.git" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn btn-warning btn-lg custom">Code</button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -83,7 +87,7 @@ function App() {
             <div className="col col-xl-6 col-sm-12 center-text">
               <div class="card text-center border-0" style={{ width: "31rem", backgroundColor: "#F5F5F5" }}>
                 <div class="card-body">
-                  <h3 className='mb-4'>What's My IP</h3>
+                  <h3 className='mb-4 project-name'>What's My IP</h3>
                   <button type="button" class="btn btn-warning btn-lg button-margin btn-space custom">Live View</button>
                   <button type="button" class="btn btn-warning btn-lg custom">Code</button>
                 </div>
@@ -101,9 +105,13 @@ function App() {
             <div className="col col-xl-6 col-sm-12 center-text">
               <div class="card text-center border-0" style={{ width: "31rem", backgroundColor: "#F5F5F5" }}>
                 <div class="card-body">
-                  <h3 className='mb-4'>Weather App</h3>
-                  <button type="button" class="btn btn-warning btn-lg button-margin btn-space custom">Live View</button>
-                  <button type="button" class="btn btn-warning btn-lg custom">Code</button>
+                  <h3 className='mb-4 project-name'>Weather App</h3>
+                  <a href="https://jk-weatherapp.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn btn-warning btn-lg button-margin btn-space custom">Live View</button>
+                  </a>
+                  <a href="https://github.com/Jkumar0208/weather-app.git" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn btn-warning btn-lg custom">Code</button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -122,7 +130,7 @@ function App() {
                 style={{ color: "#FFFFFF" }}
               /></a>
 
-            <a className="btn btn-floating m-1 footer-linkedin" href="#!" role="button"
+            <a className="btn btn-floating m-1 footer-linkedin" href="https://github.com/Jkumar0208" target="_blank" rel="noopener noreferrer" role="button"
             ><FontAwesomeIcon
                 icon={faGithub}
                 style={{ color: "#FFFFFF" }}
@@ -134,7 +142,7 @@ function App() {
 
         <div className="text-center p-3 pb-4">
           © {year} Copyright. Made by {""}
-          <a className="text-white" href="https://mdbootstrap.com/">Jugesh Kumar</a>
+          <a className="text-white footer-name" href="https://mdbootstrap.com/">Jugesh Kumar</a>
         </div>
 
       </footer>
