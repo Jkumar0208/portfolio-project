@@ -18,6 +18,9 @@
   border-radius: 50%;
 }
 
+.img-name {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* Body Section CSS (Projects) */
 
@@ -28,6 +31,7 @@ body {
 
 .h1-margin {
   margin-top: 25px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hr-line {
@@ -51,6 +55,10 @@ body {
   width: 500px;
   height: 350px;
   border: 3px solid #ffc107;
+}
+
+.project-name {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .card-img-top {
@@ -77,6 +85,7 @@ body {
 
 .custom {
   width: 130px !important;
+  font-weight: 600;
 }
 
 /* Footer Section CSS */
@@ -92,4 +101,8 @@ body {
 .footer-linkedin {
   font-size: 30px;
   color: white;
+}
+
+.footer-name {
+  font-family: 'Montserrat', sans-serif;
 }
