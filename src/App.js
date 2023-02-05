@@ -146,7 +146,7 @@ function App() {
 
         <div className="text-center p-3 pb-4">
           © {year} Copyright. Made by {""}
-          <a className="text-white footer-name" href="https://mdbootstrap.com/">Jugesh Kumar</a>
+          <a className="text-white footer-name" href="https://jugesh-kumar-portfolio.netlify.app/">Jugesh Kumar</a>
         </div>
 
       </footer>
