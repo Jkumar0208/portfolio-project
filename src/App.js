@@ -88,8 +88,12 @@ function App() {
               <div class="card text-center border-0" style={{ width: "31rem", backgroundColor: "#F5F5F5" }}>
                 <div class="card-body">
                   <h3 className='mb-4 project-name'>What's My IP</h3>
-                  <button type="button" class="btn btn-warning btn-lg button-margin btn-space custom">Live View</button>
-                  <button type="button" class="btn btn-warning btn-lg custom">Code</button>
+                  <a href="https://what-is-my-ip-app.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn btn-warning btn-lg button-margin btn-space custom">Live View</button>
+                  </a>
+                  <a href="https://github.com/Jkumar0208/what_is_my_ip.git" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="btn btn-warning btn-lg custom">Code</button>
+                  </a>
                 </div>
               </div>
             </div>
