@@ -31,7 +31,7 @@ function App() {
               </table>
             </div>
             <span className="navbar-text navbar-icons">
-              <a className="btn btn-floating m-1 footer-linkedin" href="#!" role="button"
+              <a className="btn btn-floating m-1 footer-linkedin" href="https://www.linkedin.com/in/jugesh-kumar-445b88264" target="_blank" rel="noopener noreferrer" role="button"
               ><FontAwesomeIcon
                   icon={faLinkedinIn}
                   style={{ color: "#000000" }}
@@ -128,7 +128,7 @@ function App() {
       <footer className="bg-dark text-center text-white mt-5">
         <div className="container p-4 pb-0">
           <section className="mb-4">
-            <a className="btn btn-floating m-1 footer-linkedin" href="#!" role="button"
+            <a className="btn btn-floating m-1 footer-linkedin" href="https://www.linkedin.com/in/jugesh-kumar-445b88264" target="_blank" rel="noopener noreferrer" role="button"
             ><FontAwesomeIcon
                 icon={faLinkedinIn}
                 style={{ color: "#FFFFFF" }}
