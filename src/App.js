@@ -4,7 +4,6 @@ import todo from "./images/todo-img.jpg";
 import ipAddress from "./images/ip-address-img.jpg";
 import weather from "./images/weather-app-img.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
@@ -31,12 +30,6 @@ function App() {
               </table>
             </div>
             <span className="navbar-text navbar-icons">
-              <a className="btn btn-floating m-1 footer-linkedin" href="https://www.linkedin.com/in/jugesh-kumar-445b88264" target="_blank" rel="noopener noreferrer" role="button"
-              ><FontAwesomeIcon
-                  icon={faLinkedinIn}
-                  style={{ color: "#000000" }}
-                /></a>
-
               <a className="btn btn-floating m-1 footer-linkedin" href="https://github.com/Jkumar0208" target="_blank" rel="noopener noreferrer" role="button"
               ><FontAwesomeIcon
                   icon={faGithub}
@@ -128,12 +121,6 @@ function App() {
       <footer className="bg-dark text-center text-white mt-5">
         <div className="container p-4 pb-0">
           <section className="mb-4">
-            <a className="btn btn-floating m-1 footer-linkedin" href="https://www.linkedin.com/in/jugesh-kumar-445b88264" target="_blank" rel="noopener noreferrer" role="button"
-            ><FontAwesomeIcon
-                icon={faLinkedinIn}
-                style={{ color: "#FFFFFF" }}
-              /></a>
-
             <a className="btn btn-floating m-1 footer-linkedin" href="https://github.com/Jkumar0208" target="_blank" rel="noopener noreferrer" role="button"
             ><FontAwesomeIcon
                 icon={faGithub}
